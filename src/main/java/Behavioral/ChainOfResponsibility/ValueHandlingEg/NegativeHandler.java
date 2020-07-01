@@ -7,8 +7,8 @@ public class NegativeHandler  extends Handler {
             System.out.println("Negative values are being handles by Negative handler:");
             System.out.println("\tNegativeHandler.HandleRequest : " + request.getDescription() + request.getValue());
         }
-        else{
-            super.handleRequest(request);
-        }
+//        else{
+//            super.handleRequest(request);
+//        }
     }
 }

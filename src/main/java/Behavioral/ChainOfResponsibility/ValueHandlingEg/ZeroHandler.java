@@ -9,9 +9,9 @@ public class ZeroHandler extends Handler {
             System.out.println("\tConcreteHandlerThree.HandleRequest : " + request.getDescription()
                     + request.getValue());
         }
-        else
-        {
-            super.handleRequest(request);
-        }
+//        else
+//        {
+//            super.handleRequest(request);
+//        }
     }
 }

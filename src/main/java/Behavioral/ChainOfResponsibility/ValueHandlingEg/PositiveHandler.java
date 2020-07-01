@@ -10,9 +10,9 @@ public class PositiveHandler extends Handler {
             System.out.println("\tConcreteHandlerTwo.HandleRequest : " + request.getDescription()
                     + request.getValue());
         }
-        else
-        {
-            super.handleRequest(request);
-        }
+//        else
+//        {
+//            super.handleRequest(request);
+//        }
     }
 }
